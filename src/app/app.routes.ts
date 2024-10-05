@@ -9,7 +9,7 @@ export const routes: Routes = [
         children: [
             {
                 path: '',
-                redirectTo: '/admin',
+                redirectTo: '/admin/dashboard',
                 pathMatch: 'full',
               },
               {
