@@ -1,7 +1,7 @@
 $mat-primary: (
-  100: white,
-  500: #635bff,
-  700: #635bff,
+  100: #b0e2f9,
+  500: #00a1ec,
+  700: #0081ca,
   contrast: (
     100: white,
     500: white,
@@ -9,9 +9,9 @@ $mat-primary: (
   ),
 );
 $mat-secondary: (
-  100: white,
-  500: #16cdc7,
-  700: #16cdc7,
+  100: #97f6d4,
+  500: #00cf74,
+  700: #00ab5a,
   contrast: (
     100: white,
     500: white,
@@ -77,8 +77,8 @@ $darkbluetheme: mat.m2-define-dark-theme(
 );
 
 .mdc-list-item:hover::before {
-  --mdc-list-list-item-hover-state-layer-color: #635bff;
-  --mdc-list-list-item-focus-state-layer-color: #635bff;
+  --mdc-list-list-item-hover-state-layer-color: #00a1ec;
+  --mdc-list-list-item-focus-state-layer-color: #00a1ec;
 }
 
 .bg-primary {
