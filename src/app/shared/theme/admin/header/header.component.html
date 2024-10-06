@@ -20,58 +20,34 @@
     mat-mini-fab
     color="inherit"
     aria-label="Notifications"
-    class="d-flex justify-content-center"
   >
     <span  matBadge="1" matBadgeOverlap="false" matBadgeSize="small">
-      <i class="iconify icon-20 d-flex" data-icon="solar:bell-line-duotone"></i>
+      <mat-icon class="icon-20 d-flex" aria-hidden="true">notifications_active</mat-icon>
     </span>
   </button>
 
   <span class="flex-1-auto"></span>
 
-  <a href="#" target="_blank" mat-flat-button color="primary">Download Free</a>
-
   <!-- --------------------------------------------------------------- -->
   <!-- profile Dropdown -->
   <!-- --------------------------------------------------------------- -->
   <button
-    mat-fab
+    mat-icon-button
     extended
     color="inherit"
     [matMenuTriggerFor]="profilemenu"
-    aria-label="Notifications"
-    class="d-flex justify-content-center profile-btn-dd"
+    aria-label="Profile"
   >
-    <img
-      src="/assets/images/profile/user-1.jpg"
-      class="rounded-circle object-cover icon-35 profile-dd"
-      width="35"
-    />
+  <mat-icon class="icon-20 d-flex" aria-hidden="true">person</mat-icon>
   </button>
   <mat-menu #profilemenu="matMenu" class="topbar-dd cardWithShadow">
     <button mat-menu-item>
-      <mat-icon class="d-flex align-items-center"
-        ><i
-          data-icon="solar:shield-user-line-duotone"
-          class="iconify icon-22"
-        ></i></mat-icon
-      >My Profile
+      <mat-icon aria-hidden="true">face</mat-icon>
+      Mi perfil
     </button>
     <button mat-menu-item>
-      <mat-icon class="d-flex align-items-center"
-        ><i
-          data-icon="solar:user-id-line-duotone"
-          class="iconify icon-22"
-        ></i></mat-icon
-      >My Account
-    </button>
-    <button mat-menu-item>
-      <mat-icon class="d-flex align-items-center"
-        ><i
-          data-icon="solar:checklist-minimalistic-line-duotone"
-          class="iconify icon-22"
-        ></i> </mat-icon
-      >My Task
+      <mat-icon aria-hidden="true">settings</mat-icon>
+      Configuración
     </button>
 
     <div class="p-x-12 m-t-12">
