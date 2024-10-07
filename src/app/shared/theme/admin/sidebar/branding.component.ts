@@ -8,6 +8,7 @@ import { RouterModule } from '@angular/router';
   template: `
     <div class="branding">
       <a [routerLink]="['/']">
+        RUNTRENA
         <img
           src="./assets/images/logos/logo.svg"
           class="align-middle m-2"

@@ -8,6 +8,8 @@
 }
 
 .branding {
+  height: auto;
+  min-height: 70px;
   padding: 13px 20px;
 }
 
@@ -68,7 +70,7 @@
       .mdc-list-item__primary-text {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        gap: 1rem;
       }
     }
   }
